@@ -1,0 +1,23 @@
+.card-body {
+    padding: 1.25rem;
+}
+
+.card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+.card-text {
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+.category {
+    font-weight: bold;
+    color: #666;
+}
+
+.models {
+    font-style: italic;
+    color: #888;
+}

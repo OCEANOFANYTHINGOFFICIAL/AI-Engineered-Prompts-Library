@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description"
+            content="The AI Engineered Prompts Library is a collection of over 4000 high-quality prompts for generative AI models">
+        <meta name="keywords" content="AI, GPT-3, OpenAI, Prompts, Library">
+        <meta name="author" content="Nakshatra Ranjan Saha">
+        <meta name="robots" content="index, follow">
+        <meta name="googlebot" content="index, follow">
+        <meta name="bingbot" content="index, follow">
+        <meta property="og:title" content="AI Engineered Prompts Library">
+        <meta property="og:description"
+            content="The AI Engineered Prompts Library is a collection of over 4000 high-quality prompts for generative AI models">
+        <meta property="og:image"
+            content="https://oceanofanythingofficial.github.io/AI-Engineered-Prompts-Library/preview.png">
+        <meta property="og:url" content="https://oceanofanythingofficial.github.io/AI-Engineered-Prompts-Library/">
+        <meta property="og:type" content="website">
+        <meta property="og:site_name" content="AI Engineered Prompts Library">
+        <meta property="og:locale" content="en_US">
+        <meta property="og:locale:alternate" content="en_GB">
+        <meta property="og:locale:alternate" content="es_ES">
+        <meta property="og:locale:alternate" content="fr_FR">
+        <meta property="og:locale:alternate" content="de_DE">
+        <meta property="og:locale:alternate" content="it_IT">
+        <meta property="og:locale:alternate" content="ja_JP">
+        <meta property="og:locale:alternate" content="ko_KR">
+        <meta property="og:locale:alternate" content="pt_BR">
+
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://oceanofanythingofficial.github.io/AI-Engineered-Prompts-Library/">
+        <meta property="twitter:title" content="AI Engineered Prompts Library">
+        <meta property="twitter:description"
+            content="The AI Engineered Prompts Library is a collection of over 4000 high-quality prompts for generative AI models">
+        <meta property="twitter:image"
+            content="https://oceanofanythingofficial.github.io/AI-Engineered-Prompts-Library/preview.png">
+        <meta property="twitter:site" content="@OceanAnything">
+        <meta property="twitter:creator" content="@OceanAnything">
+        <title>AI Engineered Prompts Library</title>
+        <!-- Bootstrap 5 CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+        <link rel="manifest" href="site.webmanifest">
+    </head>
+
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container">
+                <a class="navbar-brand" href="#">AI Prompts Library</a>
+            </div>
+        </nav>
+
+        <!-- Page Content -->
+        <div class="container mt-5">
+            <div class="row align-items-start">
+                <div class="col-md-6">
+                    <div class="search-box">
+                        <input type="text" class="form-control" id="searchInput" placeholder="Search prompts">
+                    </div>
+                </div>
+                <div class="col-md-3 dropdown-col">
+                    <select class="form-select" id="modelSelect">
+                        <option selected disabled>Select Model</option>
+                        <!-- Models will be dynamically added here -->
+                    </select>
+                </div>
+                <div class="col-md-3 dropdown-col">
+                    <select class="form-select" id="categorySelect">
+                        <option selected disabled>Select Category</option>
+                        <!-- Categories will be dynamically added here -->
+                    </select>
+                </div>
+            </div>
+            <div class="row row-cols-1 row-cols-md-2 g-4 mt-3" id="promptCards">
+                <!-- Prompt cards will be dynamically added here -->
+            </div>
+        </div>
+
+        <!-- Bootstrap 5 JS -->
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+        <!-- JavaScript to load prompts data and handle load more functionality -->
+        <script src="script.js"></script>
+
+    </body>
+
+</html>
